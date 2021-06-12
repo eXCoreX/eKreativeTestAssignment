@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17EF2657ED980E696E3F7637 /* Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F166E195DD6AA120CC139A7 /* Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework */; };
+		C3617951D0ADC4988E3AC874 /* Pods_eKreativeTestAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31113554A2A3D71F90147842 /* Pods_eKreativeTestAssignment.framework */; };
+		C9838E39C631C3CCB7FBD61C /* Pods_eKreativeTestAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB325FA15E6CE0A764AC825C /* Pods_eKreativeTestAssignmentTests.framework */; };
+		F0491766267191ED0034BC3E /* PlaylistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0491765267191ED0034BC3E /* PlaylistItemView.swift */; };
+		F049176B267195C20034BC3E /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F049176A267195C20034BC3E /* URLImage.swift */; };
+		F04FBF4626720EC4004F06C6 /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FBF4526720EC4004F06C6 /* VideoDetailView.swift */; };
+		F04FBF6026727D99004F06C6 /* LoginStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FBF5F26727D99004F06C6 /* LoginStatus.swift */; };
+		F04FBF7E26743D88004F06C6 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F04FBF7D26743D88004F06C6 /* SDWebImageSwiftUI */; };
 		F09C258C26712AC700E9F9E9 /* eKreativeTestAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C258B26712AC700E9F9E9 /* eKreativeTestAssignmentApp.swift */; };
-		F09C258E26712AC700E9F9E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C258D26712AC700E9F9E9 /* ContentView.swift */; };
+		F09C258E26712AC700E9F9E9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C258D26712AC700E9F9E9 /* MainView.swift */; };
 		F09C259026712AC700E9F9E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09C258F26712AC700E9F9E9 /* Assets.xcassets */; };
 		F09C259326712AC700E9F9E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09C259226712AC700E9F9E9 /* Preview Assets.xcassets */; };
 		F09C259E26712AC800E9F9E9 /* eKreativeTestAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C259D26712AC800E9F9E9 /* eKreativeTestAssignmentTests.swift */; };
 		F09C25A926712AC800E9F9E9 /* eKreativeTestAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C25A826712AC800E9F9E9 /* eKreativeTestAssignmentUITests.swift */; };
+		F09C25BA26712B3300E9F9E9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C25B926712B3300E9F9E9 /* LoginView.swift */; };
+		F09C25C92671371700E9F9E9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = F09C25C82671371700E9F9E9 /* FacebookLogin */; };
+		F09C25CE2671440300E9F9E9 /* YoutubeChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C25CD2671440300E9F9E9 /* YoutubeChannelView.swift */; };
+		F0F520CC2671610300F7AC57 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F520CB2671610300F7AC57 /* UIApplicationExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +45,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D48A419B3B14B5D0BDDB28A /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31113554A2A3D71F90147842 /* Pods_eKreativeTestAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eKreativeTestAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D01BCC0825ED1AF62E2513 /* Pods-eKreativeTestAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignment.release.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		7F166E195DD6AA120CC139A7 /* Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DD20C71677FE586CE93FA2 /* Pods-eKreativeTestAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignmentTests/Pods-eKreativeTestAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCCF11A45F0CA8CE2C9DBA79 /* Pods-eKreativeTestAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignment.debug.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		CB325FA15E6CE0A764AC825C /* Pods_eKreativeTestAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eKreativeTestAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30F6BAE501861BDEDD5B458 /* Pods-eKreativeTestAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignmentTests/Pods-eKreativeTestAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0491765267191ED0034BC3E /* PlaylistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistItemView.swift; sourceTree = "<group>"; };
+		F049176A267195C20034BC3E /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		F04FBF4526720EC4004F06C6 /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
+		F04FBF5F26727D99004F06C6 /* LoginStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatus.swift; sourceTree = "<group>"; };
 		F09C258826712AC700E9F9E9 /* eKreativeTestAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eKreativeTestAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09C258B26712AC700E9F9E9 /* eKreativeTestAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eKreativeTestAssignmentApp.swift; sourceTree = "<group>"; };
-		F09C258D26712AC700E9F9E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F09C258D26712AC700E9F9E9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		F09C258F26712AC700E9F9E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09C259226712AC700E9F9E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F09C259426712AC700E9F9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +69,11 @@
 		F09C25A426712AC800E9F9E9 /* eKreativeTestAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eKreativeTestAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F09C25A826712AC800E9F9E9 /* eKreativeTestAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eKreativeTestAssignmentUITests.swift; sourceTree = "<group>"; };
 		F09C25AA26712AC800E9F9E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C25B926712B3300E9F9E9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F09C25C226712FB200E9F9E9 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		F09C25CD2671440300E9F9E9 /* YoutubeChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeChannelView.swift; sourceTree = "<group>"; };
+		F0F520CB2671610300F7AC57 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		F553B314F198D0D7018969A6 /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04FBF7E26743D88004F06C6 /* SDWebImageSwiftUI in Frameworks */,
+				F09C25C92671371700E9F9E9 /* FacebookLogin in Frameworks */,
+				C3617951D0ADC4988E3AC874 /* Pods_eKreativeTestAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9838E39C631C3CCB7FBD61C /* Pods_eKreativeTestAssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +99,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17EF2657ED980E696E3F7637 /* Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C821E7D12FEBADD4D31D18D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCCF11A45F0CA8CE2C9DBA79 /* Pods-eKreativeTestAssignment.debug.xcconfig */,
+				35D01BCC0825ED1AF62E2513 /* Pods-eKreativeTestAssignment.release.xcconfig */,
+				0D48A419B3B14B5D0BDDB28A /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.debug.xcconfig */,
+				F553B314F198D0D7018969A6 /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.release.xcconfig */,
+				E30F6BAE501861BDEDD5B458 /* Pods-eKreativeTestAssignmentTests.debug.xcconfig */,
+				B5DD20C71677FE586CE93FA2 /* Pods-eKreativeTestAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F09C257F26712AC600E9F9E9 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +126,8 @@
 				F09C259C26712AC800E9F9E9 /* eKreativeTestAssignmentTests */,
 				F09C25A726712AC800E9F9E9 /* eKreativeTestAssignmentUITests */,
 				F09C258926712AC700E9F9E9 /* Products */,
+				F09C25C126712FB200E9F9E9 /* Frameworks */,
+				C821E7D12FEBADD4D31D18D5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +145,17 @@
 			isa = PBXGroup;
 			children = (
 				F09C258B26712AC700E9F9E9 /* eKreativeTestAssignmentApp.swift */,
-				F09C258D26712AC700E9F9E9 /* ContentView.swift */,
+				F09C258D26712AC700E9F9E9 /* MainView.swift */,
 				F09C258F26712AC700E9F9E9 /* Assets.xcassets */,
 				F09C259426712AC700E9F9E9 /* Info.plist */,
 				F09C259126712AC700E9F9E9 /* Preview Content */,
+				F09C25B926712B3300E9F9E9 /* LoginView.swift */,
+				F09C25CD2671440300E9F9E9 /* YoutubeChannelView.swift */,
+				F0F520CB2671610300F7AC57 /* UIApplicationExtensions.swift */,
+				F0491765267191ED0034BC3E /* PlaylistItemView.swift */,
+				F049176A267195C20034BC3E /* URLImage.swift */,
+				F04FBF4526720EC4004F06C6 /* VideoDetailView.swift */,
+				F04FBF5F26727D99004F06C6 /* LoginStatus.swift */,
 			);
 			path = eKreativeTestAssignment;
 			sourceTree = "<group>";
@@ -130,6 +186,17 @@
 			path = eKreativeTestAssignmentUITests;
 			sourceTree = "<group>";
 		};
+		F09C25C126712FB200E9F9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09C25C226712FB200E9F9E9 /* AuthenticationServices.framework */,
+				31113554A2A3D71F90147842 /* Pods_eKreativeTestAssignment.framework */,
+				7F166E195DD6AA120CC139A7 /* Pods_eKreativeTestAssignment_eKreativeTestAssignmentUITests.framework */,
+				CB325FA15E6CE0A764AC825C /* Pods_eKreativeTestAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +204,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F09C25AD26712AC800E9F9E9 /* Build configuration list for PBXNativeTarget "eKreativeTestAssignment" */;
 			buildPhases = (
+				E86DE35E22238EB4F7FC57EE /* [CP] Check Pods Manifest.lock */,
 				F09C258426712AC600E9F9E9 /* Sources */,
 				F09C258526712AC600E9F9E9 /* Frameworks */,
 				F09C258626712AC600E9F9E9 /* Resources */,
+				F1DE7696515C330F0202481B /* [CP] Embed Pods Frameworks */,
+				CD4211F563D3BA8EE66A7667 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = eKreativeTestAssignment;
+			packageProductDependencies = (
+				F09C25C82671371700E9F9E9 /* FacebookLogin */,
+				F04FBF7D26743D88004F06C6 /* SDWebImageSwiftUI */,
+			);
 			productName = eKreativeTestAssignment;
 			productReference = F09C258826712AC700E9F9E9 /* eKreativeTestAssignment.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F09C25B026712AC800E9F9E9 /* Build configuration list for PBXNativeTarget "eKreativeTestAssignmentTests" */;
 			buildPhases = (
+				0B50284BDCE28E6F32414E51 /* [CP] Check Pods Manifest.lock */,
 				F09C259526712AC800E9F9E9 /* Sources */,
 				F09C259626712AC800E9F9E9 /* Frameworks */,
 				F09C259726712AC800E9F9E9 /* Resources */,
@@ -172,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F09C25B326712AC800E9F9E9 /* Build configuration list for PBXNativeTarget "eKreativeTestAssignmentUITests" */;
 			buildPhases = (
+				12C866401BCAE4DB32A2FC5B /* [CP] Check Pods Manifest.lock */,
 				F09C25A026712AC800E9F9E9 /* Sources */,
 				F09C25A126712AC800E9F9E9 /* Frameworks */,
 				F09C25A226712AC800E9F9E9 /* Resources */,
+				02F5E46D4BA6C454DACF4139 /* [CP] Embed Pods Frameworks */,
+				8639EE56E0824E649C53EAF9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +295,10 @@
 				Base,
 			);
 			mainGroup = F09C257F26712AC600E9F9E9;
+			packageReferences = (
+				F09C25C72671371700E9F9E9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				F04FBF7C26743D88004F06C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = F09C258926712AC700E9F9E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,12 +336,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F5E46D4BA6C454DACF4139 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B50284BDCE28E6F32414E51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eKreativeTestAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12C866401BCAE4DB32A2FC5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8639EE56E0824E649C53EAF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests/Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4211F563D3BA8EE66A7667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E86DE35E22238EB4F7FC57EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eKreativeTestAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1DE7696515C330F0202481B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eKreativeTestAssignment/Pods-eKreativeTestAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F09C258426712AC600E9F9E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09C258E26712AC700E9F9E9 /* ContentView.swift in Sources */,
+				F049176B267195C20034BC3E /* URLImage.swift in Sources */,
+				F09C25CE2671440300E9F9E9 /* YoutubeChannelView.swift in Sources */,
+				F0491766267191ED0034BC3E /* PlaylistItemView.swift in Sources */,
+				F0F520CC2671610300F7AC57 /* UIApplicationExtensions.swift in Sources */,
+				F09C25BA26712B3300E9F9E9 /* LoginView.swift in Sources */,
+				F04FBF4626720EC4004F06C6 /* VideoDetailView.swift in Sources */,
+				F09C258E26712AC700E9F9E9 /* MainView.swift in Sources */,
+				F04FBF6026727D99004F06C6 /* LoginStatus.swift in Sources */,
 				F09C258C26712AC700E9F9E9 /* eKreativeTestAssignmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +640,7 @@
 		};
 		F09C25AE26712AC800E9F9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCF11A45F0CA8CE2C9DBA79 /* Pods-eKreativeTestAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +663,7 @@
 		};
 		F09C25AF26712AC800E9F9E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D01BCC0825ED1AF62E2513 /* Pods-eKreativeTestAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +686,7 @@
 		};
 		F09C25B126712AC800E9F9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30F6BAE501861BDEDD5B458 /* Pods-eKreativeTestAssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +709,7 @@
 		};
 		F09C25B226712AC800E9F9E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DD20C71677FE586CE93FA2 /* Pods-eKreativeTestAssignmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +732,7 @@
 		};
 		F09C25B426712AC800E9F9E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D48A419B3B14B5D0BDDB28A /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +753,7 @@
 		};
 		F09C25B526712AC800E9F9E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F553B314F198D0D7018969A6 /* Pods-eKreativeTestAssignment-eKreativeTestAssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +812,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F04FBF7C26743D88004F06C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		F09C25C72671371700E9F9E9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F04FBF7D26743D88004F06C6 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F04FBF7C26743D88004F06C6 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		F09C25C82671371700E9F9E9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F09C25C72671371700E9F9E9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F09C258026712AC600E9F9E9 /* Project object */;
 }
