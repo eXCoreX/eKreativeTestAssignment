@@ -10,6 +10,10 @@
 
 ## Setup
 
+First of all, this project uses CocoaPods, install dependencies using `pod install`.
+
+Open the project using the `*.xcworkspace` file
+
 Here you will need a lot of keys and IDs. All of them are in the Info.plist
 
 1. Facebook
